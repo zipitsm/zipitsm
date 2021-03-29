@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
+        <title>Contact Page for American Data Management</title>
+        <meta name="description" content="Contact Form the American Data Management.">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" media="(min-width:640px)" href="css/medium.css">
+        <link rel="stylesheet" media="(min-width:1024px)" href="css/large.css"
+        
+    </head>
+    <body>
+        <header id="mainHeader" class= "amdataMainHeader">
+            <div id="flex-headings">
+                <div id="head-image">    
+                    <img src="images/amdata-logo2.png" alt="American Data Management site logo">
+                </div>
+                <div id="head-title">
+                    <div class="headings">
+                        <h1>American Data Management</h1>
+                        <div class="motto">LifeCycle Records Management</div>
+                    </div>
+                </div>
+                <div id="head-image">    
+                    <img src="images/amdata-logo2.png" alt="American Data Management logo">
+                </div>
+            </div>  
+        
+            <nav class="clearfix">
+                <div class="nav-bar">
+                    <ul class="navbar">
+                        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a class="active" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <br>
+                <h2>Contact us with any special requests, questions, or to find out how we can serve you.</h2> 
+                <br>
+                <h3>Address</h3>
+                <p>10421 Lexington Dr</p>
+                <p>Knoxville, TN 37932</p>
+                <br>
+                    <div class="contactContainer">
+                        <div class="contactdiv">
+                            <div class="contact_iframe">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.424557314562!2d-84.13655008473485!3d35.912106780141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885c2faf953c28ed%3A0x725ff492cfd7c067!2s10421%20Lexington%20Dr%2C%20Knoxville%2C%20TN%2037932!5e0!3m2!1sen!2sus!4v1616782144702!5m2!1sen!2sus" title="Google Map of the company headquarters of American Data Management." style="border:0" allowfullscreen></iframe>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="contactdiv">
+                            <div class="contactformContainer">
+                                <form action="https://getform.io/f/8405d7aa-8c28-456d-8132-51ac237e5323" method="POST" type="_blank" target="hidden-form" id=contact>
+                                    <fieldset>
+                                        <legend>Contact Us</legend>
+                                            <ol class="flex-outer">
+                                                <li>
+                                                    <label for=name>Name</label>
+                                                    <input id=name name="name" type=text placeholder="First and Last name" required
+                                                    minlength="5" pattern="[A-Za-z ]+">
+                                                </li>
+                                                <li>
+                                                    <label for=email>Email</label>
+                                                    <input id=email name="email" type=email placeholder="example@domain.com">
+                                                </li>
+                                                <li>
+                                                    <label for=phone>Phone</label>
+                                                    <input id=phone name="phone" type=tel placeholder="Ex 8015555555" required>
+                                                </li>
+                                                <li>
+                                                    <label for="requests">Requests and Comments: </label>
+                                                    <textarea id="requests" name="msg" maxlength="600" rows="5"></textarea>
+                                                </li>
+                                            </ol>
+                                            <br>
+                                            <input name="secret" type="hidden" value="1b3a9374-1a8e-434e-90ab-21aa7b9b80e7"/>
+                                            <button type="submit" formaction="thanks.html">Submit</button>
+
+                                            <input onclick="window.location.href = 'thanks.html';" type="submit" value="Submit" />
+
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+        <br><br>
+        </main>
+        <footer id="mainFooter" class="amdataMainFooter" style="opacity: 1;">
+            <div class="footer-upper">
+            <h3>Contact Information</h3><br>
+            <p>American Data Management</p>
+            <p>info@amdataco.com</p>
+            <p>865-680-7301</p>
+            </div>
+            <br>
+           <div class="footer-lower">
+            <p><script src="scripts/currentdate.js"></script></p>
+            <p><a href="tos.html">Terms of Use</a></p>
+            <p>&copy;2021 - Nicholas Holmes</p>
+            </div>
+        </footer>
+    <script src="scripts/hamburger.js"></script>
+    </body>
+</html>
